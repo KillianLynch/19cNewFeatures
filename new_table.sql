@@ -1,5 +1,5 @@
 CREATE TABLE RockBuster_locations (
-	store_id INT IDENTITY (1, 1) PRIMARY KEY,
+	store_id NUMBER PRIMARY KEY,
 	phone VARCHAR (25),
 	state VARCHAR (10),
 	zip_code VARCHAR (5)
